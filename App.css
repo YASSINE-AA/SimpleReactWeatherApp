@@ -1,0 +1,37 @@
+body {
+  background-image: url("https://images.pexels.com/photos/11041919/pexels-photo-11041919.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.inputClass {
+
+  color: white;
+  width: 20rem;
+  background-color: #121212;
+  border-radius: 20rem;
+  height: 3rem;
+  text-align: center;
+  
+}
+
+.weatherContent {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;  
+  
+}
+
+#temp {
+  font-size: 5rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
