@@ -7,7 +7,7 @@ const WeatherInfo = (props) =>{
     const [location, setLocation] = useState("Enter a city");
     const [data, setData] = useState({});
     const [obj, setObj] = useState({"weather": {0: {"description": ""}}, "main": {"temp": ""}});
-    const apiKey = "2d195320deb6060d2f817f29b65eed71"; // Enter your API Key (https://openweathermap.org/api).
+    const apiKey = ""; // Enter your API Key (https://openweathermap.org/api).
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`   
     
 ;
